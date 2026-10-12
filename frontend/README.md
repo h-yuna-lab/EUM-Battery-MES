@@ -136,7 +136,7 @@ npm start
 
 기본 접속 주소는 `http://localhost:3000`입니다. API 요청은 상대경로 `/api/mes/...`를 사용하며, [package.json](package.json)의 개발 프록시가 `http://localhost:8111`로 전달합니다. Axios의 `withCredentials: true`로 세션 쿠키를 사용합니다.
 
-백엔드 최초 로컬 실행 시 기본 관리자 계정은 `admin / 1234`입니다([DataSeeder](https://github.com/h-yuna-lab/MES-Battery-backend/blob/main/src/main/java/com/mes/backend/config/DataSeeder.java)). 학습용 초기 계정이므로 외부 운영 전에 비밀번호와 계정 정책을 변경해야 합니다.
+백엔드 최초 로컬 실행 시 기본 관리자 계정은 `admin / 1234`입니다([DataSeeder](../backend/src/main/java/com/mes/backend/config/DataSeeder.java)). 학습용 초기 계정이므로 외부 운영 전에 비밀번호와 계정 정책을 변경해야 합니다.
 
 ```bash
 npm run build
@@ -157,9 +157,9 @@ npm run build
 
 | 구분 | 포트폴리오 저장소 |
 | --- | --- |
-| 프론트엔드 | [MES-Battery-frontend](https://github.com/h-yuna-lab/MES-Battery-frontend) |
-| 백엔드 | [MES-Battery-backend](https://github.com/h-yuna-lab/MES-Battery-backend) |
-| 설비 시뮬레이터 | [MES-Battery-Simulator](https://github.com/h-yuna-lab/MES-Battery-Simulator) |
+| 프론트엔드 | [MES-Battery-frontend](../frontend/README.md) |
+| 백엔드 | [MES-Battery-backend](../backend/README.md) |
+| 설비 시뮬레이터 | [MES-Battery-Simulator](../simulator/README.md) |
 
 - [프로젝트 노션](https://app.notion.com/p/3f6cb363cc938094bfe2ea7b5bf44d7c)
 - [원본 팀 저장소 / hyun-testman](https://github.com/pyyzzz/MES-Battery-frontend/tree/hyun-testman)

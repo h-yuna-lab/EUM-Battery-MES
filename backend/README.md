@@ -140,9 +140,9 @@ macOS/Linux에서는 동일한 DB 환경변수를 설정하고 `./gradlew bootRu
 
 | 구분 | 포트폴리오 저장소 |
 | --- | --- |
-| 프론트엔드 | [MES-Battery-frontend](https://github.com/h-yuna-lab/MES-Battery-frontend) |
-| 백엔드 | [MES-Battery-backend](https://github.com/h-yuna-lab/MES-Battery-backend) |
-| 설비 시뮬레이터 | [MES-Battery-Simulator](https://github.com/h-yuna-lab/MES-Battery-Simulator) |
+| 프론트엔드 | [MES-Battery-frontend](../frontend/README.md) |
+| 백엔드 | [MES-Battery-backend](../backend/README.md) |
+| 설비 시뮬레이터 | [MES-Battery-Simulator](../simulator/README.md) |
 
 - [프로젝트 노션](https://app.notion.com/p/3f6cb363cc938094bfe2ea7b5bf44d7c)
 - [원본 팀 저장소 / hyun_testman](https://github.com/pyyzzz/MES-Battery-backend/tree/hyun_testman)
@@ -151,4 +151,4 @@ macOS/Linux에서는 동일한 DB 환경변수를 설정하고 `./gradlew bootRu
 
 ## 프로젝트 회고
 
-생산관리·기준정보 화면 구현과 문서 정리 경험, 개선 방향은 [홍유나의 이음 배터리 MES 프로젝트 회고](https://github.com/h-yuna-lab/MES-Battery-frontend#프로젝트-회고)에 정리했습니다.
+생산관리·기준정보 화면 구현과 문서 정리 경험, 개선 방향은 [홍유나의 이음 배터리 MES 프로젝트 회고](../frontend/README.md)에 정리했습니다.

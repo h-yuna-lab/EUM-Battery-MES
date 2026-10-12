@@ -24,7 +24,7 @@
 - 공통 Drawer 방식 정의와 너비 통일 협업
 - 프로젝트 개요·요구사항·도메인·시나리오·API 명세서·매핑 문서 정리
 
-최종 코드의 작업지시 기능은 **등록·조회**이며 수정 API는 없습니다. 백엔드와 C 시뮬레이터는 담당 화면의 데이터 흐름을 함께 보여주는 팀 결과물입니다. 상세 담당 기능·현재 코드 위치는 [프론트 README](frontend/README.md#홍유나-담당-업무)에 정리했습니다.
+최종 코드의 작업지시 기능은 **등록·조회**이며 수정 API는 없습니다. 백엔드와 C 시뮬레이터는 담당 화면의 데이터 흐름을 함께 보여주는 팀 결과물입니다. 상세 담당 기능·현재 코드 위치는 [프론트 README](frontend/README.md)에 정리했습니다.
 
 ## 저장소 구성
 
@@ -57,11 +57,11 @@
 
 ![완제품 LOT 상세](frontend/docs/screenshots/product-lot-detail.jpg)
 
-자재·작업자·BOM 등을 포함한 전체 화면은 [프론트 README](frontend/README.md#주요-화면)와 [촬영 조건](frontend/docs/SCREENSHOTS.md)에 있습니다.
+자재·작업자·BOM 등을 포함한 전체 화면은 [프론트 README](frontend/README.md)와 [촬영 조건](frontend/docs/SCREENSHOTS.md)에 있습니다.
 
 ## 실행 방법
 
-Java 17·MySQL·Node.js를 준비합니다. 시뮬레이터 실행에는 GCC·Make·pthread·libcurl·cJSON·pkg-config가 필요합니다. 먼저 [백엔드 실행 안내](backend/README.md#실행-방법)에 따라 DB와 설정 파일을 준비하세요.
+Java 17·MySQL·Node.js를 준비합니다. 시뮬레이터 실행에는 GCC·Make·pthread·libcurl·cJSON·pkg-config가 필요합니다. 먼저 [백엔드 실행 안내](backend/README.md)에 따라 DB와 설정 파일을 준비하세요.
 
 ### 터미널 1 · 백엔드
 
@@ -90,7 +90,7 @@ npm start
 
 ### 터미널 3·4 · 시뮬레이터
 
-백엔드 실행 후 제품·BOM·자재 재고·작업지시를 준비합니다. 빌드 도구와 운영체제별 명령은 [시뮬레이터 실행 안내](simulator/README.md#실행-방법)에 있습니다.
+백엔드 실행 후 제품·BOM·자재 재고·작업지시를 준비합니다. 빌드 도구와 운영체제별 명령은 [시뮬레이터 실행 안내](simulator/README.md)에 있습니다.
 
 ```bash
 # 터미널 3 · 통합 저장소 루트에서

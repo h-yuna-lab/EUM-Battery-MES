@@ -43,7 +43,7 @@ WBS에는 초기 작업지시 등록·수정 Drawer 업무가 함께 기재되�
 
 홍유나의 확인된 담당 범위는 생산관리·기준정보 **프론트엔드 화면과 분석/API 문서 정리**입니다. 시뮬레이터는 팀 전체 시스템 구조와 데이터 연동을 설명하기 위해 함께 보관했습니다. C 시뮬레이터 전체를 홍유나의 단독 구현으로 표시하지 않았습니다.
 
-작업지시·완제품 LOT 화면의 데이터가 어디서 생성되고 전달되는지 이 모듈을 통해 확인할 수 있습니다. 담당 화면 코드는 [프론트엔드 저장소](https://github.com/h-yuna-lab/MES-Battery-frontend#홍유나-담당-업무)에 있습니다.
+작업지시·완제품 LOT 화면의 데이터가 어디서 생성되고 전달되는지 이 모듈을 통해 확인할 수 있습니다. 담당 화면 코드는 [프론트엔드 저장소](../frontend/README.md)에 있습니다.
 
 ## 시스템 구조
 
@@ -115,7 +115,7 @@ mes_equipment_c/
 
 ## 실행 방법
 
-먼저 [백엔드](https://github.com/h-yuna-lab/MES-Battery-backend)를 실행하고 제품·BOM·자재 재고·작업지시를 준비합니다. [config.h](mes_equipment_c/config.h)의 서버 주소는 기본 `http://localhost:8111/`이며 폴링 간격은 5초입니다. L1과 L2가 같은 컴퓨터에서 실행되는 설정입니다.
+먼저 [백엔드](../backend/README.md)를 실행하고 제품·BOM·자재 재고·작업지시를 준비합니다. [config.h](mes_equipment_c/config.h)의 서버 주소는 기본 `http://localhost:8111/`이며 폴링 간격은 5초입니다. L1과 L2가 같은 컴퓨터에서 실행되는 설정입니다.
 
 ### 빌드 준비
 
@@ -172,9 +172,9 @@ Windows의 MinGW Make는 환경에 따라 `mingw32-make`를 사용하고, 실행
 
 | 구분 | 포트폴리오 저장소 |
 | --- | --- |
-| 프론트엔드 | [MES-Battery-frontend](https://github.com/h-yuna-lab/MES-Battery-frontend) |
-| 백엔드 | [MES-Battery-backend](https://github.com/h-yuna-lab/MES-Battery-backend) |
-| 설비 시뮬레이터 | [MES-Battery-Simulator](https://github.com/h-yuna-lab/MES-Battery-Simulator) |
+| 프론트엔드 | [MES-Battery-frontend](../frontend/README.md) |
+| 백엔드 | [MES-Battery-backend](../backend/README.md) |
+| 설비 시뮬레이터 | [MES-Battery-Simulator](../simulator/README.md) |
 
 - [프로젝트 노션](https://app.notion.com/p/3f6cb363cc938094bfe2ea7b5bf44d7c)
 - [원본 팀 저장소 / master](https://github.com/pyyzzz/MES-Battery-Simulator/tree/master)
@@ -183,4 +183,4 @@ Windows의 MinGW Make는 환경에 따라 `mingw32-make`를 사용하고, 실행
 
 ## 프로젝트 회고
 
-생산관리·기준정보 화면 구현과 문서 정리 경험, 개선 방향은 [홍유나의 이음 배터리 MES 프로젝트 회고](https://github.com/h-yuna-lab/MES-Battery-frontend#프로젝트-회고)에 정리했습니다.
+생산관리·기준정보 화면 구현과 문서 정리 경험, 개선 방향은 [홍유나의 이음 배터리 MES 프로젝트 회고](../frontend/README.md)에 정리했습니다.
