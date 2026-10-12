@@ -1,0 +1,14 @@
+# Local generated files and private configuration
+node_modules/
+build/
+dist/
+.gradle/
+.env
+.env.*
+!.env.example
+!**/.env.example
+**/application.properties
+**/application-secret.properties
+*.log
+.DS_Store
+Thumbs.db
