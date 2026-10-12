@@ -33,7 +33,7 @@
 | [frontend](frontend/README.md) | React 생산관리·기준정보·품질·재고·리포트 화면 |
 | [backend](backend/README.md) | Spring Boot 생산·품질·재고 API, DB·초기 데이터 설정 |
 | [simulator](simulator/README.md) | C L1 설비·L2 수집기, TCP 패킷·HTTP 보고 |
-| [docs](docs/SOURCE.md) | 통합 기준 저장소·커밋·보존 범위 |
+| [SOURCE.md](SOURCE.md) | 통합 기준 저장소·커밋·보존 범위 |
 
 각 모듈의 소스·문서·설정 예시·화면 캡처와 기존 커밋 이력을 가져왔습니다.
 
@@ -120,6 +120,6 @@ Windows에서는 MSYS2 MinGW64 환경을 사용하며 Make·실행 파일 이름
 
 ## 출처
 
-- [통합 기준 및 출처 기록](docs/SOURCE.md)
+- [통합 기준 및 출처 기록](SOURCE.md)
 - 원본 팀 [프론트엔드](https://github.com/pyyzzz/MES-Battery-frontend/tree/hyun-testman) · [백엔드](https://github.com/pyyzzz/MES-Battery-backend/tree/hyun_testman) · [시뮬레이터](https://github.com/pyyzzz/MES-Battery-Simulator)
 - [프로젝트 Notion](https://app.notion.com/p/3f6cb363cc938094bfe2ea7b5bf44d7c)
