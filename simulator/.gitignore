@@ -1,0 +1,11 @@
+# Build outputs
+*.exe
+*.o
+*.dll
+*.so
+*.dylib
+mes_machine_c/mes_machine
+mes_equipment_c/mes_equipment
+*.log
+__pycache__/
+.DS_Store
