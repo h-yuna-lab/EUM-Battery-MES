@@ -147,3 +147,8 @@ macOS/Linux에서는 동일한 DB 환경변수를 설정하고 `./gradlew bootRu
 - [프로젝트 노션](https://app.notion.com/p/3f6cb363cc938094bfe2ea7b5bf44d7c)
 - [원본 팀 저장소 / hyun_testman](https://github.com/pyyzzz/MES-Battery-backend/tree/hyun_testman)
 - [복사 기준과 변경 내역](docs/SOURCE.md)
+
+
+## 프로젝트 회고
+
+생산관리·기준정보 화면 구현과 문서 정리 경험, 개선 방향은 [홍유나의 이음 배터리 MES 프로젝트 회고](https://github.com/h-yuna-lab/MES-Battery-frontend#프로젝트-회고)에 정리했습니다.
