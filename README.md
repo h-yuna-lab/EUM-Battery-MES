@@ -28,7 +28,7 @@
 
 ## 저장소 구성
 
-| 폴더 | 내용 |
+| 위치 | 내용 |
 | --- | --- |
 | [frontend](frontend/README.md) | React 생산관리·기준정보·품질·재고·리포트 화면 |
 | [backend](backend/README.md) | Spring Boot 생산·품질·재고 API, DB·초기 데이터 설정 |
@@ -57,56 +57,63 @@
 
 ![완제품 LOT 상세](frontend/docs/screenshots/product-lot-detail.jpg)
 
-자재·작업자·BOM 등을 포함한 전체 화면은 [프론트 README](frontend/README.md)와 [촬영 조건](frontend/docs/SCREENSHOTS.md)에 있습니다.
+<details>
+<summary>로그인·대시보드·LOT 목록·자재·작업자·BOM</summary>
+
+### 로그인
+
+![로그인](frontend/docs/screenshots/login.jpg)
+
+### 대시보드 · 팀 공통 기능
+
+![대시보드](frontend/docs/screenshots/dashboard.jpg)
+
+### 완제품 LOT 목록
+
+![완제품 LOT 목록](frontend/docs/screenshots/product-lots.jpg)
+
+### 자재 관리
+
+![자재 관리](frontend/docs/screenshots/materials.jpg)
+
+### 작업자 관리
+
+![작업자 관리](frontend/docs/screenshots/workers.jpg)
+
+### BOM 관리
+
+![BOM 관리](frontend/docs/screenshots/bom.jpg)
+
+</details>
+
+촬영 조건은 [화면 캡처 안내](frontend/docs/SCREENSHOTS.md)에 있습니다.
 
 ## 실행 방법
 
-Java 17·MySQL·Node.js를 준비합니다. 시뮬레이터 실행에는 GCC·Make·pthread·libcurl·cJSON·pkg-config가 필요합니다. 먼저 [백엔드 실행 안내](backend/README.md)에 따라 DB와 설정 파일을 준비하세요.
+Java 17·MySQL·Node.js를 준비하고, [백엔드](backend/README.md)에서 DB·설정·초기 데이터를 먼저 확인합니다.
 
-### 터미널 1 · 백엔드
-
-통합 저장소 루트에서 실행합니다.
+통합 저장소 루트에서 각각 별도 터미널로 실행합니다.
 
 ```powershell
+# 터미널 1 · 백엔드
 cd backend
 .\gradlew.bat bootRun
 ```
 
-macOS/Linux에서는 `./gradlew bootRun`을 사용합니다.
-
-### 터미널 2 · 프론트엔드
-
-통합 저장소 루트에서 실행합니다.
-
 ```powershell
+# 터미널 2 · 프론트엔드
 cd frontend
 npm install
 npm start
 ```
 
-- 화면: `http://localhost:3000`
-- API: `http://localhost:8111`
-- 관리자 초기 계정과 DB 시드, 생산 준비 데이터는 백엔드 README를 확인하세요.
+화면은 `http://localhost:3000`, 서버는 `http://localhost:8111`입니다. 제품·BOM·자재 재고·작업지시를 준비한 뒤 [시뮬레이터](simulator/README.md)의 L1·L2를 각각 실행합니다.
 
-### 터미널 3·4 · 시뮬레이터
-
-백엔드 실행 후 제품·BOM·자재 재고·작업지시를 준비합니다. 빌드 도구와 운영체제별 명령은 [시뮬레이터 실행 안내](simulator/README.md)에 있습니다.
-
-```bash
-# 터미널 3 · 통합 저장소 루트에서
-cd simulator/mes_machine_c
-make
-./mes_machine
-```
-
-```bash
-# 터미널 4 · 통합 저장소 루트에서
-cd simulator/mes_equipment_c
-make
-./mes_equipment
-```
-
-Windows에서는 MSYS2 MinGW64 환경을 사용하며 Make·실행 파일 이름은 환경에 따라 달라집니다. 공정 TCP 포트는 5006~5011입니다.
+| 상세 안내 | 내용 |
+| --- | --- |
+| [프론트 기술 안내](frontend/README.md) | API·세션 설정, 화면 코드·데이터 처리, 빌드 |
+| [백엔드 기술 안내](backend/README.md) | DB·초기 데이터·생산 준비, API, 빌드 |
+| [시뮬레이터 기술 안내](simulator/README.md) | 운영체제별 의존성·L1/L2 빌드·TCP 포트·서버 연결 |
 
 ## 확인 범위
 
