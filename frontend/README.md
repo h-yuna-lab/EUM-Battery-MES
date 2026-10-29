@@ -65,9 +65,9 @@ npm run build
 
 ## 확인 범위
 
-- 포트폴리오 정리 시 프론트엔드 프로덕션 빌드 성공
+- 프론트엔드 프로덕션 빌드 성공
 - 브라우저에서 로그인, 대시보드, 작업지시 등록·상세, LOT 상세, 자재·작업자·BOM 화면 확인
-- 이번 정리에서는 Spring Boot·MySQL·C 시뮬레이터의 전체 연동 실행은 수행하지 않음
+- Spring Boot·MySQL·C 시뮬레이터를 포함한 전체 연동 실행은 검증하지 않음
 
 설치·빌드 환경 및 원본과의 차이는 [출처와 검증 기록](docs/SOURCE.md)을 참고해주세요.
 
@@ -77,4 +77,4 @@ npm run build
 - [백엔드 API·DB·초기 데이터 설정](../backend/README.md)
 - [시뮬레이터 통신·빌드](../simulator/README.md)
 - [화면 촬영 조건](docs/SCREENSHOTS.md)
-- [통합 출처](../SOURCE.md) · [프론트 복사 기준](docs/SOURCE.md)
+- [통합 출처](../SOURCE.md) · [프론트 출처 기록](docs/SOURCE.md)

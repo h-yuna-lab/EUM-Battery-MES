@@ -12,7 +12,7 @@ Spring Boot 생산·품질·재고 API의 설정·실행·데이터 처리 안�
 | 인증 | Spring Security · 세션 쿠키 · BCrypt |
 | 기타 | Lombok · Gradle Wrapper 9.5.1 |
 
-버전은 복사한 브랜치의 [build.gradle](build.gradle) 및 [Gradle 설정](gradle/wrapper/gradle-wrapper.properties) 기준입니다.
+버전은 이 저장소의 [build.gradle](build.gradle) 및 [Gradle 설정](gradle/wrapper/gradle-wrapper.properties) 기준입니다.
 
 ## DB·설정·실행·빌드
 
@@ -22,7 +22,7 @@ Java 17 및 MySQL을 준비합니다. MySQL에 `mes_portfolio` 데이터베이�
 CREATE DATABASE mes_portfolio CHARACTER SET utf8mb4;
 ```
 
-원본 DB 접속 정보는 공개 복사본에서 제외했습니다. [설정 예시](src/main/resources/application.example.properties)를 복사한 뒤 환경변수로 DB 정보를 지정합니다.
+원본 DB 접속 정보는 공개 저장소에서 제외했습니다. [설정 예시](src/main/resources/application.example.properties)를 복사한 뒤 환경변수로 DB 정보를 지정합니다.
 
 ```powershell
 Copy-Item src/main/resources/application.example.properties src/main/resources/application.properties
@@ -58,7 +58,7 @@ macOS/Linux에서는 동일한 DB 환경변수를 설정하고 `./gradlew bootRu
 | `POST /api/mes/machine/report` | 생산·품질 실적 수신 |
 | `POST /api/mes/machine/environment` | 온도·습도·전압 수신 |
 
-정확한 메서드·요청·응답은 [Controller](src/main/java/com/mes/backend/controller)와 [DTO](src/main/java/com/mes/backend/dto)를 기준으로 확인할 수 있습니다. API 경로별 접두사를 생략한 표 항목은 동일한 `/api/mes` 아래 경로입니다.
+정확한 메서드·요청·응답은 [Controller](src/main/java/com/mes/backend/controller)와 [DTO](src/main/java/com/mes/backend/dto)를 기준으로 확인할 수 있습니다. 표에서 `/me`, `/workers`처럼 앞부분을 생략한 경로도 모두 `/api/mes` 아래에 있습니다.
 
 ## 생산 데이터 처리
 
@@ -73,11 +73,11 @@ macOS/Linux에서는 동일한 DB 환경변수를 설정하고 `./gradlew bootRu
 
 ## 확인 범위
 
-복사 브랜치, 컨트롤러·DTO·서비스 흐름 및 프론트엔드 연결 지점을 확인했습니다. 이번 포트폴리오 정리 환경에는 Java/MySQL 실행 환경이 없어 **백엔드 빌드·DB 통합 테스트는 실행하지 않았습니다**. 프론트 화면 캡처는 예시 데이터 기반이며 서버 연동 완료 증거로 사용하지 않았습니다.
+컨트롤러·DTO·서비스 흐름과 프론트엔드 연결 지점은 코드로 확인했습니다. **백엔드 빌드와 DB 통합 테스트는 실행하지 않았습니다**. 프론트 화면 캡처는 예시 데이터 기반이며 서버 연동 완료 증거로 사용하지 않았습니다.
 
 ## 문서
 
 - [프로젝트 포트폴리오·담당 업무·회고](../README.md)
 - [프론트 API 연결·화면 코드](../frontend/README.md)
 - [시뮬레이터 통신·빌드](../simulator/README.md)
-- [통합 출처](../SOURCE.md) · [백엔드 복사 기준](docs/SOURCE.md)
+- [통합 출처](../SOURCE.md) · [백엔드 출처 기록](docs/SOURCE.md)
