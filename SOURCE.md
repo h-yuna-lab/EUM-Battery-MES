@@ -6,9 +6,9 @@
 
 | 통합 폴더 | 개인 저장소 | 기준 커밋 |
 | --- | --- | --- |
-| frontend | [MES-Battery-frontend](https://github.com/h-yuna-lab/MES-Battery-frontend) | `7ed081c202d229259f2c4f7d05cb13fe6d88eebf` |
-| backend | [MES-Battery-backend](https://github.com/h-yuna-lab/MES-Battery-backend) | `14aee4ffe52919deff4ad04fdec0842c14a618f6` |
-| simulator | [MES-Battery-Simulator](https://github.com/h-yuna-lab/MES-Battery-Simulator) | `1f719e86ebd82a9b00e4b3191c9f7f98c33f7ab0` |
+| frontend | MES-Battery-frontend (통합 후 삭제) | `7ed081c202d229259f2c4f7d05cb13fe6d88eebf` |
+| backend | MES-Battery-backend (통합 후 삭제) | `14aee4ffe52919deff4ad04fdec0842c14a618f6` |
+| simulator | MES-Battery-Simulator (통합 후 삭제) | `1f719e86ebd82a9b00e4b3191c9f7f98c33f7ab0` |
 
 ## 변경 범위
 
@@ -17,11 +17,11 @@
 - 각 모듈 README는 API·코드 위치·설정·빌드·상세 실행 안내로 정리하고 최상위 문서와 연결했습니다.
 - 화면 이미지는 기존 프론트 폴더에 그대로 두고 최상위 README에서 표시합니다.
 - 소스 코드, 의존성 및 잠금 파일, 화면 이미지, 설정 예시, 빌드 도구는 기존 저장소와 동일하게 보존했습니다.
-- 기존 분리 저장소와 원본 팀 저장소는 변경·삭제하지 않았습니다.
+- 원본 팀 저장소는 변경·삭제하지 않았습니다. 기존 분리 저장소는 통합 후 2026-11-25에 삭제했으며, 이력은 이 저장소의 조상 커밋으로 남아 있습니다.
 
 ## 원본 팀 코드 출처
 
-개인 담당 범위는 최상위 README에, 원본 팀 코드의 복사 기준은 이 문서와 각 모듈의 docs/SOURCE.md(있는 경우)에 기록했습니다. 기존 분리 저장소 README에서도 당시 설명을 확인할 수 있습니다. 최초 팀 개발 이력은 해당 원본 팀 저장소에서 확인할 수 있습니다. 개인 포트폴리오에 이미 포함된 이력을 가져온 것이며, 삭제되었던 과거 이력을 복원한 것은 아닙니다.
+개인 담당 범위는 최상위 README에, 원본 팀 코드의 복사 기준은 이 문서와 각 모듈의 docs/SOURCE.md(있는 경우)에 기록했습니다. 기존 분리 저장소 README의 당시 설명은 위 기준 커밋에서 확인할 수 있습니다. 최초 팀 개발 이력은 해당 원본 팀 저장소에서 확인할 수 있습니다. 개인 포트폴리오에 이미 포함된 이력을 가져온 것이며, 삭제되었던 과거 이력을 복원한 것은 아닙니다.
 
 ## 검증 범위
 
